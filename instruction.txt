@@ -1,6 +1,7 @@
->>>>npm install aos@latest firebase@latest react-hot-toast@latest react-rating@latest react-router-dom@latest   react-scroll-to-top@latest sweetalert2@latest swiper@latest tailwindcss@latest daisyui@latest --save
+>>>>npm install aos@latest firebase@latest react-hot-toast@latest react-rating@latest react-router-dom@latest react-scroll-to-top@latest sweetalert2@latest swiper@latest tailwindcss@latest daisyui@latest --save
 
 -----------------------------------
+
 >>>>After clone the project : 
      1-npm install
      2-npm run dev
@@ -30,3 +31,11 @@
         // Initialize Firebase
         export const app = initializeApp(firebaseConfig);                            
 -----------------------------------------------------------
+
+>>>>>>>For fetch 
+         fetch('')
+         .then(res=>res.json())
+         .then(data=>{
+                 console.log(data);
+         })
+         .catch(error=>console.error(error))
