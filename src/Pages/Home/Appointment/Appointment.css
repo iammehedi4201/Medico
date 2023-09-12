@@ -1,0 +1,75 @@
+.bg-img-style{
+    position: relative;
+}
+
+.bg-img-style-2{
+    position: relative;
+}
+
+.bg-img-style-2::before{
+    content: "";
+    position: absolute;
+    background-image: url('https://html.tonatheme.com/2023/Medica/images/shapes/footer-shape-img.png');
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+}
+
+
+.bg-img-style::before{
+    content: "";
+    position: absolute;
+    background-image: url('https://html.tonatheme.com/2023/Medica/images/shapes/emergency-shape-img-two.png');
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+}
+.appointment-block {
+    background:#0e3672 ;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 56px 50px;
+}
+
+
+
+.appointment-block .block-heading {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-group .name {
+    display: flex;
+    border: none;
+    outline: none;
+    background: var(--base-color);
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="password"], .contact-form select, .contact-form textarea {
+    display: block;
+    width: 100%;
+    line-height: 29px;
+    height: 60px;
+    font-size: 16px;
+    padding: 10px 12px;
+    color: #666F77;
+    border: none;
+    outline: none;
+    font-family: var(--secondary-font);
+    border-radius: 10px;
+    z-index: 1;
+}
